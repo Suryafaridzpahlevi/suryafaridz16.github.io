@@ -1,0 +1,186 @@
+---
+title: "ANALISIS IMPOR DAGING SAPI DI INDONESIA TAHUN 2010-2021"
+subtitle: "Tugas Pengganti UAS Metode Penelitian Politeknik APP Jakarta"
+author: "Muhamad Surya Faridz Pahlevi"
+date: January 18, 2023
+number-sections: true
+format:
+  html: default
+  docx: default
+editor: visual
+---
+
+![](poltekapp.jpg)
+
+## Pendahuluan
+
+### Latar belakang
+
+Integrasi nasional yang mengakibatkan pertukaran pandangan hingga aspek-aspek kebudayaan dapat disebut dengan globalisasi. Adanya perekonomian yang disebabkan oleh proses globalisasi, sebuah perekonomian terkoneksi bebas dengan perekonomian di seluruh dunia. Hal tersebut juga diiringi dengan meningkatnya jumlah penduduk dan perbaikan taraf hidup penduduk di Indonesia seperti pemenuhan gizi. Salah satu bahan yang digunakan untuk memenuhi kebutuhan gizi masyarakat Indonesia adalah daging sapi (Antara & Sumarniash, 2019).
+
+Integrasi nasional yang mengakibatkan pertukaran pandangan hingga aspek-aspek kebudayaan dapat disebut dengan globalisasi. Adanya perekonomian yang disebabkan oleh proses globalisasi, sebuah perekonomian terkoneksi bebas dengan perekonomian di seluruh dunia. Hal tersebut juga diiringi dengan meningkatnya jumlah penduduk dan perbaikan taraf hidup penduduk di Indonesia seperti pemenuhan gizi. Salah satu bahan yang digunakan untuk memenuhi kebutuhan gizi masyarakat Indonesia adalah daging sapi (Antara & Sumarniash, 2019).
+
+Berdasarkan kondisi yang sudah dijelaskan secara singkat di paragraph sebelumnya, maka dibutuhkan kajian yang membahas mengenai analisis impor daging sapi dengan tiga indikator, yaitu: kecenderungan keterbukaan impor di Indonesia dan kecenderungan tingkat ketergantungan impor komoditas.
+
+### **Ruang lingkup**
+
+Batasan masalah yang berkaitan dengan latar belakang adalah analisis impor daging sapi dengan dua indikator, yaitu: kecenderungan keterbukaan impor di Indonesia dan kecenderungan tingkat ketergantungan impor komoditas.
+
+### Rumusan masalah
+
+Terkait dengan latar belakang yang sudah dijelaskan, maka rumusan masalah yang akan diangkat dalam penelitian ini adalah "Bagaimana analisis impor daging di Indonesia sesuai dengan kecenderungan keterbukaan impor di Indonesia dan kecenderungan tingkat ketergantungan impor komoditas?"
+
+### Tujuan dan manfaat penelitian
+
+Adapun tujuan dan manfaat dari penelitian ini adalah mengetahui korelasi indikator dengan adanya impor daging sapi di Indonesia dan memberikan informasi terkait analisis data impor daging sapi di Indonesia pada tahun 2010 -- 2021.
+
+### Package
+
+Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+## Studi pustaka
+
+### Perkembangan Populasi Sapi Potong
+
+Mencermati data populasi sapi potong menurut provinsi di Indonesia dipublikasi oleh BPS (2021) tampak bahwa dalam rentan waktu 12 tahun terakhir populasi sapi potong di Indonesia cenderung stabil, namun terdapat peningkatan di luar pulau jawa (Gambar 1).  Populasi sapi potong tahun 2010 sebanyak 13.581.570 ekor, sepuluh tahun kemudian tahun 2020 populasi meningkat menjadi17.440.393 ekor atau meningkat 2,34% per tahun. Satu tahun kemudian tahun 2021 populasi sapi potong meningkat menjadi 18.053.710 ekor atau meningkat 3,08% per tahun. Jika dicermati per provinsi, Jawa Timur adalah provinsi dengan populasi sapi potong terbanyak yaitu tahun 2010 sebanyak 3.745.453 ekor, tahun 2020 meningkat menjadi 4.938.874 ekor dan tahun 2021 meningkat menjadi  4.938.874 ekor.
+
+[Tabel 1 disini](https://drive.google.com/drive/folders/12gmpgpUA5IOhk0F-b9hiAiubgkJWJj9S)
+
+Gambar 1. Perkembangan Populasi Sapi Potong di Indonesia, 2000-2016
+
+Berdasarkan data di atas, populasi sapi di Indonesia perlu dikembangkan untuk memaksimalkan kebutuhan daging di pasar nasional. Program Pemerintah terkait pengembangan populasi sapi di peternak lokal telah digalakkan, salah satunya dengan program pemuliaan ternak seperti implementasi kualitas pakan, genetik, dan reproduksi (Antara & Sumarniash, 2019).
+
+### Infrastruktur Pasar
+
+Sentra produksi sapi potong yang tersebar di berbagai wilayah membutuhkan sarana dan prasarana transportasi dalam kegiatan perdagangan sapi potong. Banyaknya permintaan daging membuat pengiriman diputuskan dengan mengirimkan ternak hidup. Sarana yang biasa digunakan untuk mobilisasi daratan biasanya menggunakan truk, kereta api, dan angkutan laut sebagai transportasi tambahan. Tantangan ini meliputi penyusutan pada daging sapi selama masa pengiriman. Hal tersebut menyebabkan adanya tinggi biaya pemasaran yang disebabkan oleh jadwal transportasi laut yang tidak merata. Selain itu, transportasi laut bersifat paket dan pungutan baik resmi maupun tidak terus naik dan sulit dihindari (Ilham, 2009).
+
+Selain sarana transportasi, distribusi ternak dan daging sapi dari produsen hingga ke konsumen membutuhkan infrastruktur pamasaran yang tidak sedikit, tergantung pada daerah asal sapi. Infrastruktur yang digunakan untuk pemasaran ternak dan daging sapi dari sentra produksi ke sentra konsumsi adalah: pasar hewan, holding ground, check poin antar daerah, karantina daerah pemberangkatan, pelabuhan laut pemberangkatan (Pelindo), Administrasi Pelabuhan pemberangkatan (ADPEL), ekspedisi laut kapal laut, ekspedisi darat, PJKA, RPH, coldstorage, dan pasar daging (wetmarket, supermarket, dan meatshop) (Antara & Sumarniash, 2019).
+
+Struktur pasar dan pembentukan harga daging sapi domestik ditentukan oleh strukur pasokan dan permintaan (Husodo, 2013). Sumber pasokan daging sapi nasional ditentukan oleh 6,4 juta peternak kecil tradisional, 96 importir sapi bakalan, dan 67 importir daging sapi. Proporsi pemenuhan kebutuhan daging sapi domestik bersumber dari produksi daging lokal (70,0 persen) dan sisanya (30,0 persen) dari impor sapi bakalan dan impor daging sapi. Disebutkan juga bahwa struktur konsumsi daging sapi nasional tahun 2013 dengan total konsumsi 550 ribu ton didominasi oleh konsumsi masyarakat langsung dengan proporsi 76,8 persen, kebutuhan industri 14,7 persen, dan pangsa konsumsi konsumen lembaga seperti hotel, restoran, dan katering mencapai 8,5 persen (Rusastra, 2014).
+
+### Kerangka Penilitian
+
+[Kerangka Penelitian disini](https://drive.google.com/drive/folders/13hL_ILIC4ebs8HkGxoEz3C_nM9S8kXUF)
+
+## Metode penelitian
+
+### Data
+
+Data dalam penelitian ini menggunakan data sekunder deret waktu periode 2010 -- 2021 atau selama 11 tahun. Data bersumber dari publikasi dalam negeri dan internasional seperti Badan Pusat Statistik Indonesia (www.bps.go.id), United Nation International Trade Commodity Database (www.comtrade.un.org), Organisation for Economic Co-operating and Development (OECD), World Bank (http://data.worldbank.org) dan Bank Indonesia (www.bi.go.id).
+
+### Metode analisis
+
+Penelitian ini dipilih karena daging sapi menjadi komoditas pangan yang strategis di Indonesia dan menurut peneliti, periode tersebut menggambarkan kondisi terkini dari impor daging sapi. Obyek dari penelitian ini adalah dampak dari konsumsi daging sapi impor. Terdapat 2 variabel yang akan digunakan dalam penelitian ini, derajat keterbukaan impor dan tingkat ketergantungan impor komoditas.
+
+Jenis data dalam penelitian ini adalah data kuantitatif dalam bentuk time series. Data yang diperlukan dalam penelitian ini adalah data nilai ekspor -- impor total, data PDB harga konstan tahun 2010, data jumlah cadangan devisa, data produksi daging sapi di Indonesia, data nilai dan volume impor daging sapi, data konsumsi produk daging sapi per kapita di Indonesia tahun 2010 -- 2021, dalam kurun waktu 11 tahun tersebut digunakan karena adanya isu mafia impor sapi. Dalam mengumpulkan data, peneliti menggunakan teknik observasi non-partisipan, yaitu teknik pengumpulan data dengan cara mengamati, mencatat dan mempelajari jurnal, buku-buku, dokumen skripsi, tesis, mengakses institusi yang terkait dengan penelitian melalui situs resminya.
+
+Alat analisis yang digunakan adalah model ekonometrika, yaitu banyaknya barang (volume impor) yang dilakukan adalah fungsi dari nilai-nilai PDB Indonesia. Model ekonometrika yang digunakan untuk mencari hubungan penambahan impor daging sapi dengan peningkatan pendapatan nasional (dalam hal ini PDB) adalah model linear.
+
+Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini merbaksud mencari hubungan antara hwy dan cty. Spesifikasi yang dilakukan adalah:
+
+$$
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+$$
+
+## 4 Pembahasan
+
+### Pembahasan masalah
+
+Daging adalah salah satu produk hasil ternak yang sangat disukai masyarakat karena memiliki gizi tinggi yang diperlukan tubuh, bercita rasa kuat, mengenyangkan dan dapat diolah menjadi berbagai variasi (Balitbang Pertanian, 2017). Hasil utama dari ternak adalah karkas. Karkas merupakan bagian tubuh ternak penghasil daging yang telah dipisahkan dari bagian-bagian isi perut, kepala, kaki dan kulit. Menurut Badan Standar Nasional Indonesia karkas adalah bagian dari tubuh sapi yang telah disembelih sesuai dengan peraturan yang berlaku, sudah dikuliti dikeluarkan jeroan dan dipisahkan bagian kepala hingga organ bawah, organ reproduksi dan ambing, ekor serta lemak yang berlebih.
+
+Jenis daging sapi yang layak dan lazim dikonsumsi di Indonesia ada tiga, yakni daging segar, daging segar dingin dan daging beku. Daging segar artinya daging yang belum diolah atau ditambahkan bahan apapun, sedangkan daging segar dingin adalah daging yang mengalami prosedur pendinginan setelah penyembelihan sehingga suhu bagian dalam daging antara 0 °C dan 4 °C. Daging beku merupakan daging segar yang sudah mengalami proses pembekuan didalam blast freezer dengan suhu bagian dalam minimal mencapai -18 °C (BSNI, 2008).
+
+Daging sapi impor tadinya hanya untuk menunjang perkembangan bidang pariwisata seperti pemenuhan daging berkualitas untuk hotel atau restoran. Dengan semakin baiknya kondisi perekonomian dan kemajuan tingkat pendidikan serta kesadaran masyarakat terhadap nilai gizi daging, lalu berkembanglah restoran atau café lokal yang menghidangkan menu dengan kelas dan jenis daging potongan tertentu (Ramadhany, 2011).
+
+Selain itu, daging impor juga hadir dipasar untuk memperbanyak varian daging sapi, agar masyarakat bisa memilih banyak jenis daging sapi untuk dikonsumsi. Namun, lambat laun fungsi daging sapi impor itu sendiri 'bergeser' menjadi pembeda prestise seseorang. Prestise ini memiliki arti pengakuan atas status sosial yang disandang. Akibat globalisasi, masyarakat Indonesia seakan berlomba untuk mencari pengakuan atau reputasi yang lebih dari orang lain. Seiring dengan naiknya pendapatan, kesediaan masyarakat untuk membayar lebih demi kualitas daging sapi juga meningkat.
+
+Kegiatan impor tersebut mengakibatkan terhambatnya agroindustri sapi potong lokal skala besar yang semakin menjurus pada kegiatan hilir yakni impor dan perdagangan, serta perputaran modal yang terlalu cepat dan resiko yang lebih kecil. Sementara itu, kegiatan di hulu yang merupakan usaha pembibitan dan budidaya sapi, sebagian besar dilakukan oleh peternak dengan skala terbatas dan pendapatan yang kecil. Mereka harus menghadapi persaingan yang kurang seimbang, termasuk serbuan daging sapi impor dari berbagai negara eksportir. Akibatnya, peternak segan menjual sapi potong karena harganya terlampau rendah (Ramadhany, 2011), itulah alasan Indonesia melakukan impor daging sapi.
+
+Kementerian Pertanian (Kementan) membuka keran impor untuk pasokan kebutuhan daging sapi. Menurut Direktur Jenderal Peternakan dan Kesehatan Hewan Kementan I Ketut Diarmita, Indonesia saat ini telah menyetujui Australia, Selandia Baru, Amerika Serikat, Kanada, Jepang, dan Spanyol sebagai negara asal pengekspor daging sapi. Namun untuk Spanyol, Indonesia masih harus melalui proses analisis risiko yang dipersyaratkan sesuai dengan ketentuan perundang-undangan (Republika, 2017). Berikut ini data negara pengekspor daging sapi jenis HS0202 ke Indonesia.
+
+[Negara Pengekspor Daging Sapi disini](https://drive.google.com/drive/folders/13jIbeVeKRMeVSkgLdI6lshShKRN4zEJ9)
+
+Sumber: Uncomtrade, 2021. Data diolah
+
+### Analisis masalah
+
+Derajat Keterbukaan Impor (DKI) adalah proporsi volume perdagangan impor terhadap PDB. Dari hasil perhitungan DKI ini, kita bisa menggambarkan besarnya paparan impor suatu negara sehingga dapat diketahui keperluan akan cadangan devisa yang terkuras dari impor tersebut dan mampu menunjukkan seberapa besar dampak buruk efek demonstrasi yang dihadapi oleh suatu negara. Besarnya angka DKI, mempunyai arti semakin besar negara tersebut bergantung pada barang impor, maka cadangan devisa yang akan diperlukan untuk pembiayaan impor semakin besar dan efek demonstrasi yang berimbas pada pola konsumsi akan semakin lebar. Angka DKI dalam suatu perekonomian dapat dihitung dengan rumus M/GDP per tahun (Atmaji, 2004).
+
+[Tabel 2 Hasil Perhitungan Derajat Keterbukaan Impor (DKI) disini](https://drive.google.com/drive/folders/12pd3A8ya4SKI2p_namQusLcnXQai2QpD)
+
+Sumber: Uncomtrade dan World Bank, 2020. Data diolah 2021
+
+Tabel 2 menunjukkan hasil perhitungan derajat keterbukaan impor / DKI dari tahun 2010 -- 2021. Hasil perhitungan yang didapatkan mengalami fluktuasi dari tahun ke tahun, dimana dari tahun 2010 -- 2021 rata-rata angka DKI sebesar 0,00018 hal ini memiliki arti cadangan devisa yang digunakan untuk mengimpor daging sapi ke Indonesia sebesar 0,018 persen. Tahun 2014 -- 2018 angka rata-rata DKI sebesar 0,000371. Ini mempunyai arti 0,037 persen cadangan devisa dipakai untuk membiayai impor daging sapi pada periode 2004 -- 2008. Pada tahun 2019 -- 2021, rata-rata angka DKI adalah 0,000722. Artinya sebesar 0,0722 persen cadangan devisa dipakai untuk pembiayaan impor daging sapi pada periode tersebut. Tahun 2012 -- 2015 angka rata-rata derajat keterbukaan impor daging sapi di Indonesia adalah 0,000754 ini berarti, 0,0754 persen cadangan devisa dikuras untuk mengimpor daging sapi ke Indonesia.
+
+Angka DKI yang cenderung meningkat dipengaruhi oleh berbagai fenomena. Rantai perdagangan untuk produksi daging sapi lokal sendiri terlalu panjang, yang berimbas pada harga yang tinggi konsumen maka dari itu konsumen lebih memilih daging sapi impor. Hal ini sejalan dengan penelitian yang dilakukan Hadi, et al (2013) tentang pereferensi konsumen yang menyebutkan bahwa di Malaysia, konsumen bersedia membayar harga yang lebih tinggi untuk kulitas daging yang lebih baik. Pada penelitian (Permana, 2016) tentang impor buah musiman, impor juga akan menyebabkan rendahnya produksi buah lokal karena kalah bersaing dalam pasar buah lokal.
+
+Periode tahun 2013 -- 2015 fenomena yang terjadi adalah maraknya kasus mafia impor impor daging sapi. Mafia impor berhasil memperjuangkan pembebasan Pajak Pertambahan Nilai (PPN) atas impor daging dan 'memainkan' kuota daging yang diperoleh akibatnya, volume impor untuk komoditas daging sapi semakin meningkat dan efek demonstrasi semakin terbuka lebar. Selain itu, dalam Peraturan Pemerintah nomor 4 Tahun 2016 mengenai Ketentuan Ekspor dan Impor Hewan atau Produk Hewan, pada pasal 6 ayat (1) butir C menyebutkan zona impor untuk produk hewanbersumber dari negara yang belum bebas penyakit mulut dan kuku dan telah memeiliki program pengendalian resmi penyakit mulut dan kuku.
+
+Dari undang-undang tersebut dapat kita ketahui bahwa seluruh negara mempunyai peluang untuk mengimpor daging sapi ke Indonesia dan inilah yang dapat membuat derajat keterbukaan impor akan daging sapi semakin meningkat. Dalam analisis impor, indikator marginal propensity to import atau MPM menunjukkan berapa besar pertambahan impor akibat pertambahan pendapatan nasional satu satuan uang (Atmaji, 2004). MPM merupakan derajat kecenderungan peningkatan pengeluaran untuk volume impor pada saat pendapatan nasional meningkat. Lalu inilah Hasil regresinya adalah plot data
+
+```{r}
+dat<-read_excel('DATAMETOPEL 2.xlsx')
+plot(dat$X,dat$Y,xlab="Impor sapi",ylab="GDP")
+```
+
+Jika tidak keluar gambar atau termuat gambar, dibuktikan [disini](https://drive.google.com/drive/folders/13wwpv0LQsH0KTiCrkupKib8Redgm55By)
+
+Regresi
+
+```{r}
+reg1<-lm(Y~X,data=dat)
+summary(reg1)
+```
+
+Plot Error
+
+```{r}
+plot(dat$Y,dat$u,xlab="Impor Sapi",ylab="error")
+```
+
+Jika gambar plot tidak muncul, dibuktikan [disini](https://drive.google.com/drive/folders/147tw5t04dVLHOlsvfBOq5mKjL3ugg3Q2)
+
+Berdasarkan hasil output Regresi dari R Studio diperoleh hasil sebesar 7.452 yang lebih besar, maka HO ditolak. Hal ini berarti bahwa adanya hasrat untuk impor tambahan secara signifikan akibat naiknya PDB. Hal ini sesuai dengan teori yang telah digambarkan bahwa semakin besar pendapatan negara, maka semakin besar pula impornya. Salah satu kekhawatiran adalah bahwa kenaikan upah sepadan dengan menyiratkan biaya hidup yang lebih tinggi dapat mempengaruhi daya saing (Marks, 2017).
+
+Dari tabel SPSS diatas, kita dapat melihat bahwa koefisien b atau MPM sebesar 92,98. Angka tersebut memiliki arti bahwa hasrat impor tambahan untuk komoditas daging sapi sebesar 92,98. Hal tersebut juga dapat diartikan apabila Produk Domestik Bruto (PDB) naik sebesar 1 juta US Dollar, maka akan meningkatkan volume impor daging sapi sebesar 92,9 kg. Hasil tersebut sesuai dengan penelitian Brata (2015) dengan judul "Derajat Keterbukaan Impor dan Derajat Konsentrasi Komoditas Kedelai" disimpulkan bahwa hasrat impor tambahan untuk komoditas kedelai berpengaruh positif terhadap kenaikan PDB dan dalam penelitian Faisol (2017) yang berjudul "Pengaruh Pertumbuhan PDB, Laju Inflasi dan Nilai Tukar Rupiah Terhadap Nilai Impor Indonesia" yang menyatakan pertumbuhan PDB berpengaruh signifikan terhadap nilai impor di Indonesia.
+
+## Kesimpulan
+
+Setelah pemaparan hasil analisis pembahasan data penelitian dan berdasar pada tujuan penelitian, lalu dibuat kesimpulan sebagai berikut:
+
+1\) Derajat Keterbukaan Impor komoditas daging sapi di Indonesia berdasarkan perhitungan cenderung fluktuatif, tetapi secara periodik terus meningkat. Angka DKI komoditas daging sapi impor di Indonesia untuk periode 2010 -- 2021 rata-rata menguras 0,0159 persen dari total cadangan devisa. Jika angka ini tidak diwaspadai, akan memakai cadangan devisa yang sangat besar dan dapat menyebabkan pemenuhan kebutuhan pangan khususnya daging sapi domestik akan sangat jauh dari harapan.
+
+2\) Untuk angka Derajat Konsentrasi Komoditas daging sapi di Indonesia, dari hasil perhitungan dapat disimpulkan daging sapi impor di Indonesia relatif terdistribusi. Keadaan ini menunjukkan bahwa Indonesia memerlukan cukup banyak jenis komoditas impor daging sapi. Jika tidak diwaspadai, dapat menimbulkan efek perubahan selera pada konsumsi masyarakat yang semakin pro-impor. Bila terjadi terus-menerus, kondisi ini dapat berpotensi masuk dalam food trap negara eksportir.
+
+3\) Berdasarkan hasil analisis regresi sederhana untuk hasrat impor tambahan (MPM), maka dapat disimpulkan bahwa angka MPM 92,98. Hal ini menunjukkan jika MPM meningkat, maka impor daging sapi juga akan meningkat.
+
+## Referensi
+
+Antara, M., & Sumarniash, M. S. (2019). *Gejolak harga daging sapi di Indonesia*. 1--11. https://simdos.unud.ac.id/uploads/file_penelitian_1\_dir/2d2b656716ebb1c9f92b17dfccb04cc4.pdf
+
+Atmaji, E. (2004). Analisis Impor di Indonesia. *Jurnal Ekonomi Pembangunan*, 9 (1) : 33-46
+
+Brata, I G. C. S. & Yasa, I G. W. M. (2015\_. Derajat Keterbukaan Impor dan Derajat Konsentrasi Komoditas Kedelai di Indonesia. *E-Jurnal EP Unud*, 4 (8): 873-897
+
+Danasari, I. F., Harianto, & Falatehan, A. F. (2020). Dampak kebijakan impor ternak dan daging sapi terhadap populasi sapi potong lokal di Indonesia. *Jurnal Ekonomi Pertanian Dan Agribisnis*, *4*(2), 310--322. https://doi.org/10.21776/ub.jepa.2020.004.02.9
+
+Faisol, N.  F. (2017). Pengaruh Pertumbuhan PDB, Laju Inflasi dan Nilai Tukar Rupiah Terhadap Nilai Impor Indonesia. Universitas Negeri Malang: 190-200
+
+Hadi, Ahmad, Hanis, Izani, & Abdul. (2013). Consumer Preference for Food Attributes in Malaysia: Case Studies on Broiler and Beef. *Journal of International Food & Agribusiness Marketing*:137-153
+
+Ilham, N. (2009). Kebijakan pengendalian harga daging sapi nasional. *Jurnal Analisis Kebijakan Pertanian*, *7*(3): 211--221.
+
+Marks, S. V.(2017). Non-Tariff Trade Regulations in Indonesia: Nominal and Effective Rates of Protection. *Bulletin of Indonesian Economic Studies 53*(3)
+
+Permana, I G. A. & Sukadana, I W. (2016). Pecundang dari Perdagangan Internasional: Studi Kasus Impor 28 Jenis Buah Musiman di Indonesia. *Jurnal Ekonomi Kuantitatif Terapan* 9(2):151-158
+
+Rusastra, I. W. (2014). Perdagangan ternak dan daging sapi: rekonsiliasi kebijakan impor dan revitalisasi pemasaran domestik. *Forum Penelitian Agro Ekonomi*, *32*(1): 59--71.
+
+Ramadhany, F. (2011). Strategi Bersaing Komoditas Sapi Potong di Indonesia (Studi Kasus Pada PT. Elders Indonesia). Tesis. Universitas Indonesia Republika. (2017).
+
+Pemerintah Impor Daging Sapi Dari 7 Negara Untuk Ramadhan. http://www.republika.co.id/berita/ekonomi/makro/17/04/09/oo4ui2382- pemerintah-impor-daging-sapi-dari-7-negara-untuk-ramadhan diakses 19 Januari 2023
